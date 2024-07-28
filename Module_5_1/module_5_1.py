@@ -20,13 +20,13 @@ class House:
         # Логика для отрисовки указателя в консоли
         for p in range(1, new_floor + 1):
             if 10 > p == new_floor:
-                pointer += str('^ - Искомый этаж')
+                pointer += str(f'^ - Искомый этаж в здании "{self.name}"')
                 break
             elif 100 <= p == new_floor:
-                pointer += str('^^^ - Искомый этаж')
+                pointer += str(f'^^^ - Искомый этаж в здании "{self.name}"')
                 break
             elif 10 <= p == new_floor:
-                pointer += str('^^ - Искомый этаж')
+                pointer += str(f'^^ - Искомый этаж в здании "{self.name}"')
                 break
             elif p < 10:
                 pointer += str('   ')
@@ -43,11 +43,13 @@ class House:
         # Проверка на поиск несуществующего этажа
         if new_floor > self.num_of_flor:
             print(
-                f'\033[31mТакого этажа не существует!!! \nВы не можете подняться на этаж \033[34m{new_floor} \033[31mпри этажности \033[33m{self.num_of_flor}')
+                f'\033[31mТакого этажа не существует в здании \033[35m{self.name}\033[31m!!! \nВы не можете подняться на этаж \033[34m{new_floor} \033[31mпри этажности \033[33m{self.num_of_flor}')
         else:
             print('\033[32m', draw_list, '\033[33m', floor_list, '\033[0m', sep='')
             print(pointer)
 
 
-elb = House('Elbrus', 30)
-elb.go_to(20)
+h1 = House('ЖК Горский', 18)
+h2 = House('Домик в деревне', 2)
+h1.go_to(5)
+h2.go_to(10)
