@@ -14,6 +14,7 @@ class House:
     # Функция для поиска этажа
     def go_to(self, new_floor):
         draw_list = []
+        floor_list = []
         pointer = str(' ')
 
         # Логика для отрисовки указателя в консоли
@@ -33,18 +34,20 @@ class House:
                 pointer += str('    ')
 
         # Логика для отрисовки списка этажей
-        for floor in range(1, new_floor + 1):
-            draw_list.append(floor)
+        for floor in range(1, self.num_of_flor + 1):
+            if floor <= new_floor:
+                draw_list.append(floor)
+            if floor > new_floor:
+                floor_list.append(floor)
 
         # Проверка на поиск несуществующего этажа
         if new_floor > self.num_of_flor:
             print(
                 f'\033[31mТакого этажа не существует!!! \nВы не можете подняться на этаж \033[34m{new_floor} \033[31mпри этажности \033[33m{self.num_of_flor}')
         else:
-            print(draw_list)
+            print('\033[32m', draw_list, '\033[33m', floor_list, '\033[0m', sep='')
             print(pointer)
-        return new_floor
 
 
-elb = House('Elbrus', 101)
-elb.go_to(10)
+elb = House('Elbrus', 30)
+elb.go_to(20)
