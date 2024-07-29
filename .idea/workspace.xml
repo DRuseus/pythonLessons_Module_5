@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb13aff-8e8a-4efa-a209-3d41ac0c4f24" name="Changes" comment="-Добавлена отрисовка остатка этажей и их окраска">
-      <change beforePath="$PROJECT_DIR$/Module_5_1/module_5_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_5_1/module_5_1.py" afterDir="false" />
+    <list default="true" id="deb13aff-8e8a-4efa-a209-3d41ac0c4f24" name="Changes" comment="-Добавлены вызовы из условия практического задания">
+      <change afterPath="$PROJECT_DIR$/Module_5_2/module_5_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DRuseus"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DRuseus&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DRuseus/pythonLessons_Module_5.git",
-    "accountId": "61f6ea7f-e0ac-4c72-91de-b0a6a5d098d1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DRuseus/pythonLessons_Module_5.git&quot;,
+    &quot;accountId&quot;: &quot;61f6ea7f-e0ac-4c72-91de-b0a6a5d098d1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2jt4WFdbmdr09ThnjTpd3H8uJ1v" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.module_5_1.executor": "Run",
+    "Python.module_5_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -92,13 +94,30 @@
       <option name="project" value="LOCAL" />
       <updated>1722203773945</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-Добавлены вызовы из условия практического задания">
+      <option name="closed" value="true" />
+      <created>1722204156916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722204156916</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-Добавлены вызовы из условия практического задания">
+      <option name="closed" value="true" />
+      <created>1722204196370</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722204196370</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделана необходимая логика:&#10;-Проверка на максимум этажей при инициализации и ручной ввод этажности при проваленной проверке&#10;-Проверка искомого этажа при определённой этажности&#10;-И немного украшательств с цветной ошибкой и указателем искомого этажа" />
     <MESSAGE value="-Добавлено ещё немного украшательств" />
     <MESSAGE value="-Добавлена отрисовка остатка этажей и их окраска" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Добавлена отрисовка остатка этажей и их окраска" />
+    <MESSAGE value="-Добавлены вызовы из условия практического задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Добавлены вызовы из условия практического задания" />
   </component>
 </project>
