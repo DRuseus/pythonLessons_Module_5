@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb13aff-8e8a-4efa-a209-3d41ac0c4f24" name="Changes" comment="Сделаны правки по требованию преподавателя: &quot;[Name], сделайте задание по условию, пожалуйста. При желании вы можете отправить 2 файла - 1 по заданию, 2 ваше видение задачи&quot;">
-      <change afterPath="$PROJECT_DIR$/Module_5_4/module_5_4.py" afterDir="false" />
+    <list default="true" id="deb13aff-8e8a-4efa-a209-3d41ac0c4f24" name="Changes" comment="Добавил проверку, что искомый этаж больше нуля">
+      <change afterPath="$PROJECT_DIR$/Module_5_HARD/module_5_hard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,8 @@
     "Python.module_5_2.executor": "Run",
     "Python.module_5_3.executor": "Run",
     "Python.module_5_4.executor": "Run",
+    "Python.module_5_hard.executor": "Debug",
+    "Python.test01.executor": "Run",
     "Python.test_mod_5_4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -151,7 +153,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722369907771</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Практическое задание по теме &quot;Различие атрибутов класса и экземпляра.&quot;">
+      <option name="closed" value="true" />
+      <created>1722441575599</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722441575599</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавил проверку, что искомый этаж больше нуля">
+      <option name="closed" value="true" />
+      <created>1722690563780</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722690563780</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Добавил проверку, что искомый этаж больше нуля">
+      <option name="closed" value="true" />
+      <created>1722690739834</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722690739834</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +189,8 @@
     <MESSAGE value="Сделано практическое задание по условию урокуа &quot;Специальные методы классов&quot;" />
     <MESSAGE value="Сделано практическое задание по условию урокуа &quot;Перегрузка операторов.&quot;" />
     <MESSAGE value="Сделаны правки по требованию преподавателя: &quot;[Name], сделайте задание по условию, пожалуйста. При желании вы можете отправить 2 файла - 1 по заданию, 2 ваше видение задачи&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделаны правки по требованию преподавателя: &quot;[Name], сделайте задание по условию, пожалуйста. При желании вы можете отправить 2 файла - 1 по заданию, 2 ваше видение задачи&quot;" />
+    <MESSAGE value="Практическое задание по теме &quot;Различие атрибутов класса и экземпляра.&quot;" />
+    <MESSAGE value="Добавил проверку, что искомый этаж больше нуля" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил проверку, что искомый этаж больше нуля" />
   </component>
 </project>
