@@ -5,7 +5,7 @@ class House:
         self.num_of_floor = num_of_floor
 
     def go_to(self, new_floor: int):
-        if self.num_of_floor >= new_floor:
+        if 0 < self.num_of_floor >= new_floor:
             for floor in range(1, new_floor + 1):
                 print(floor)
         else:
